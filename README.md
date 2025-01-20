@@ -22,13 +22,13 @@
   ```
   
   ```shell
-  scoop install gcc fd ripgrep fzf nodejs make cmake luarocks
+  scoop install gcc eza fd ripgrep fzf nodejs make cmake luarocks
   ```
 
 - `MacOS`
 
   ```shell
-  brew install gcc fd ripgrep fzf nodejs make cmake luarocks
+  brew install gcc exa fd ripgrep fzf nodejs make cmake luarocks
   ```
 
 
