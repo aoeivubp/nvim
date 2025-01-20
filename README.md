@@ -17,15 +17,16 @@
   ```shell
   scoop bucket add main
   ```
-
+  ``clangd or gcc and so on``
+  
   ```shell
-  scoop install fd ripgrep fzf nodejs make cmake luarocks
+  scoop install fd ripgrep fzf nodejs make cmake clangd luarocks
   ```
 
 - `MacOS`
 
   ```shell
-  brew install fd ripgrep fzf nodejs make cmake luarocks
+  brew install fd ripgrep fzf nodejs make cmake clangd luarocks
   ```
 
 
