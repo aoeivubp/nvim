@@ -13,12 +13,16 @@
 
 ## Requirements
 - `Windows`
-
+  ```shell
+  scoop bucket add extras
+  ```
+  
   ```shell
   scoop bucket add main
   ```
-  ``clangd or gcc and so on``
   
+  ``clangd or gcc``
+
   ```shell
   scoop install fd ripgrep fzf nodejs make cmake clangd luarocks
   ```
