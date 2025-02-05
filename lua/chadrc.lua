@@ -42,9 +42,11 @@ M.ui = {
         lazyload = true,
         order = {"treeOffset", "buffers", "tabs", "btns"},
         modules = nil
-    },
+    }
+｝
 
-    nvdash = {
+M.nvdash = {
+        load_on_startup = true,
         header = {"⡆⣿⣿⣦⠹⣳⣳⣕⢅⠈⢗⢕⢕⢕⢕⢕⢈⢆⠟⠋⠉⠁⠉⠉⠁⠈⠼⢐⢕",
                   "⡗⢰⣶⣶⣦⣝⢝⢕⢕⠅⡆⢕⢕⢕⢕⢕⣴⠏⣠⡶⠛⡉⡉⡛⢶⣦⡀⠐⣕",
                   "⡝⡄⢻⢟⣿⣿⣷⣕⣕⣅⣿⣔⣕⣵⣵⣿⣿⢠⣿⢠⣮⡈⣌⠨⠅⠹⣷⡀⢱",
@@ -56,14 +58,13 @@ M.ui = {
                   "⣷⢄⠻⣿⣟⠿⠦⠍⠉⣡⣾⣿⣿⣿⣿⣿⣿⢸⣿⣦⠙⣿⣿⣿⣿⣿⣿⣿⣿",
                   "⡕⡑⣑⣈⣻⢗⢟⢞⢝⣻⣿⣿⣿⣿⣿⣿⣿⠸⣿⠿⠃⣿⣿⣿⣿⣿⣿⡿⠁", "",
                   "Hello, master!"},
-        load_on_startup = true,
         -- stylua: ignore
-        buttons = {{"  Find File", "Spc f f", "Telescope find_files"},
-                   {"  Bookmarks", "Spc m a", "Telescope marks"},
-                   {"  Live Grep", "Spc f w", "Telescope live_grep"},
-                   {"󰈚  Recent Files", "Spc f r", "Telescope oldfiles"},
-                   {"  Themes", "Spc t h", "Telescope themes"}, {"  Mappings", "Spc c h", "NvCheatsheet"}}
-    }
+        buttons = {{txt = "  Find File", key = "Spc f f", cmd = "Telescope find_files"},
+                   {txt = "  Bookmarks", key = "Spc m a", cmd = "Telescope marks"},
+                   {txt = "  Live Grep", key = "Spc f w", cmd = "Telescope live_grep"},
+                   {txt = "󰈚  Recent Files", key = "Spc f r", cmd = "Telescope oldfiles"},
+                   {txt = "  Themes", key = "Spc t h", "Telescope themes"},
+                   {txt = "  Mappings", key = "Spc c h", cmd = "NvCheatsheet"}}
 }
 
 M.term = {
